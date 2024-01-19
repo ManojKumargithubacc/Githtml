@@ -1,0 +1,14 @@
+body
+{
+ background-image: url(payment.webp);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.swift
+{
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: rgb(82, 221, 252);
+    background-color: blue;
+    padding: 10px;;
+}
