@@ -1,14 +1,37 @@
-body
-{
- background-image: url(payment.webp);
- background-repeat: no-repeat;
- background-size: cover;
+body {
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.swift
-{
+
+.swift {
     text-align: center;
     font-family: 'Lora', serif;
-    color: rgb(82, 221, 252);
-    background-color: blue;
-    padding: 10px;;
+    color: rgb(37, 113, 220);
+    padding: 10px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 113, 220);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #6eb5f7;
 }
